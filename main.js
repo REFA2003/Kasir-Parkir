@@ -15,6 +15,7 @@ function parking(){
             let additionalprice = nextPriceMobil * additionalTime;
             let fixPrice = defaultPriceMobil + additionalprice;
             alert(`biaya dari parkir Mobil anda adalah ${fixPrice}`);
+            
         }
     } else if (vehicle === "motor"){
         
